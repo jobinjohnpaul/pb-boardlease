@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace PBBoardLeaseCalculator.Models
 {
-    public class PriceChart
+    public class PriceChart : BaseEntity
     {
         public long Id {get;set;}
         public State Location {get;set;}       

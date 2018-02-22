@@ -2,7 +2,7 @@
 
 namespace PBBoardLeaseCalculator.Models
 {
-    public class LeaseItem
+    public class LeaseItem : BaseEntity
     {
         public int Id { get; set; }
 

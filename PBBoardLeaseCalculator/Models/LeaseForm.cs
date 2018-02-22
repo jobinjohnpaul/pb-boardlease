@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace PBBoardLeaseCalculator.Models
 {
-    public class LeaseForm
+    public class LeaseForm : BaseEntity
     {
         public long Id { get; set; }
         public Customer Customer { get; set; }       

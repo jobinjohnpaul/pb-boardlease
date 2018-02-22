@@ -1,6 +1,6 @@
 ﻿namespace PBBoardLeaseCalculator.Models
 {
-    public class Address
+    public class Address:BaseEntity
     {
         public long Id { get; set; }
         public string AddressLine1 { get; set; }
